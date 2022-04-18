@@ -1,5 +1,6 @@
 window.addEventListener("DOMContentLoaded", event => {
-    document.querySelector("button").addEventListener("click", event => {
+    document.querySelector("form").addEventListener("submit", event => {
+        event.preventDefault();
         let name = document.querySelector("#name").value;
         let email = document.querySelector("#email").value;
         let feedback = document.querySelector("textarea").value;
