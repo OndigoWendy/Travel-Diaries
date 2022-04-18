@@ -18,11 +18,10 @@ window.addEventListener("DOMContentLoaded", event => {
 });
 
 function showDialog(message) {
-    if ('native' in window) {
-        native.alert(message);
-    } else if (window.webkit && window.webkit.messageHandlers 
-            && window.webkit.messageHandlers.dialogs) {
-        window.webkit.messageHandlers.dialogs.postMessage(message);
+    if (window.webkit && window.webkit.messageHandlers 
+            && window.webkit.messageHandlers.alert) {
+        // WKWebView bridge
+        window.webkit.messageHandlers.alert.postMessage(message);
     } else {
         alert(message)
     }
