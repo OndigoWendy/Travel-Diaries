@@ -1,0 +1,99 @@
+[
+    {
+        "name": "HOT COFFEE",
+        "items": [
+            {
+                "id": 11,
+                "name": "Black Americano",
+                "price": "1.50",
+                "description": "",
+                "image": "blackamericano.png"
+            },
+            {
+                "id": 12,
+                "name": "Cappuccino",
+                "price": "3.75",
+                "description": "",
+                "image": "cappuccino.png"
+            },
+            {
+                "id": 13,
+                "name": "Macchiato",
+                "price": "3.25",
+                "description": "",
+                "image": "macchiato.png"
+            },
+            {
+                "id": 14,
+                "name": "Latte",
+                "price": "3.25",
+                "description": "",
+                "image": "latte.png"
+            }
+        ]            
+    },
+    {
+        "name": "ICED COFFEE",
+        "items": [
+            {
+                "id": 21,
+                "name": "Frappuccino",
+                "price": "3.75",
+                "description": "",
+                "image": "frappuccino.png"
+            },
+            {
+                "id": 22,
+                "name": "Iced Coffee",
+                "price": "3.15",
+                "description": "",
+                "image": "icedcoffee.png"
+            },
+            {
+                "id": 23,
+                "name": "Cold Brew",
+                "price": "1.85",
+                "description": "",
+                "image": "coldbrew.png"
+            }
+        ]            
+    },
+    {
+        "name": "TEA",
+        "items": [
+            {
+                "id": 31,
+                "name": "Green Tea",
+                "price": "1.75",
+                "description": "",
+                "image": "greentea.png"
+            },
+            {
+                "id": 32,
+                "name": "Black Tea",
+                "price": "1.75",
+                "description": "",
+                "image": "blacktea.png"
+            }
+        ]            
+    },
+    {
+        "name": "SNACKS",
+        "items": [
+            {
+                "id": 41,
+                "name": "Croissant",
+                "price": "2.80",
+                "description": "",
+                "image": "croissant.png"
+            },
+            {
+                "id": 42,
+                "name": "Chocolate Chip Muffin",
+                "price": "1.75",
+                "description": "",
+                "image": "muffin.png"
+            }
+        ]            
+    }
+]
