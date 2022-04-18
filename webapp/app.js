@@ -21,7 +21,7 @@ function showDialog(message) {
     if ('native' in window) {
         native.alert(message);
     } else if (window.webkit && window.webkit.messageHandlers 
-            && window.messageHandlers.dialogs) {
+            && window.webkit.messageHandlers.dialogs) {
         window.webkit.messageHandlers.dialogs.postMessage(message);
     } else {
         alert(message)
