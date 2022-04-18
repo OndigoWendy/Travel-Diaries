@@ -24,7 +24,9 @@ h3 {
 button {
     background-color: var(--primary);
     color: white;
-    border: 1px solid var(--ternary)
+    border: 1px solid var(--ternary);
+    padding: 12px;
+    font-size: large;
 }
 
 label, input, textarea {
