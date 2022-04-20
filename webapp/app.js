@@ -18,13 +18,12 @@ window.addEventListener("DOMContentLoaded", event => {
 });
 
 function showDialog(message) {
+    alert(message);
     if (window.webkit && window.webkit.messageHandlers 
             && window.webkit.messageHandlers.alert) {
         // WKWebView bridge
         window.webkit.messageHandlers.alert.postMessage(message);
-    } else {
-        alert(message)
-    }
+    } 
 }
 
 function injectFormData(name, email="") {

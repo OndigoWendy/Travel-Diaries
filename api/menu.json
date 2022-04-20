@@ -1,7 +1,7 @@
 [
     {
         "name": "HOT COFFEE",
-        "items": [
+        "products": [
             {
                 "id": 11,
                 "name": "Black Americano",
@@ -34,7 +34,7 @@
     },
     {
         "name": "ICED COFFEE",
-        "items": [
+        "products": [
             {
                 "id": 21,
                 "name": "Frappuccino",
@@ -60,7 +60,7 @@
     },
     {
         "name": "TEA",
-        "items": [
+        "products": [
             {
                 "id": 31,
                 "name": "Green Tea",
@@ -79,7 +79,7 @@
     },
     {
         "name": "SNACKS",
-        "items": [
+        "products": [
             {
                 "id": 41,
                 "name": "Croissant",
