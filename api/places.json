@@ -1,41 +1,38 @@
-[
-    {
-        "name": "HOT COFFEE",
-        "products": [
-            {
+[{
+        "name": "FAST FOOD",
+        "products": [{
                 "id": 11,
-                "name": "Black Americano",
+                "name": "Jakoni",
                 "price": 1.50,
-                "description": "Freshly pulled shots of espresso combined with hot water.",
-                "image": "blackamericano.png"
+                "description": "International Fast Food",
+                "image": "jakoni.jpg"
             },
             {
                 "id": 12,
-                "name": "Cappuccino",
+                "name": "Mawimbi Sea Food",
                 "price": 3.75,
                 "description": "A freshly pulled shot of espresso layered with steamed whole milk and thick rich foam to offer a luxurious velvety texture and complex aroma.",
                 "image": "cappuccino.png"
             },
             {
                 "id": 13,
-                "name": "Macchiato",
+                "name": "INTI",
                 "price": 3.25,
                 "description": "Our perfectly roasted coffees are blended with our powders, steamed non-fat milk and topped with thick foam to create a delicious pick-me-up treat.",
                 "image": "macchiato.png"
             },
             {
                 "id": 14,
-                "name": "Flat White",
+                "name": "Mercado/.",
                 "price": 3.25,
                 "description": "We start with an extra shot of espresso, combine them with one of our signature powders, and finished with lightly aerated milk to create the perfect, velvety espresso beverage. Available in hazelnut, vanilla, mocha or classic flat white.",
                 "image": "flatwhite.png"
             }
-        ]            
+        ]
     },
     {
         "name": "ICED COFFEE",
-        "products": [
-            {
+        "products": [{
                 "id": 21,
                 "name": "Frappuccino",
                 "price": 3.75,
@@ -56,12 +53,11 @@
                 "description": "Our signature Cold Brew Coffee is a premium blend of Bali Blue Moon and Ethiopia Yirgacheffe coffees with chicory steeped cold for 20 hours for rich, vibrant flavors.",
                 "image": "coldbrew.png"
             }
-        ]            
+        ]
     },
     {
         "name": "TEA",
-        "products": [
-            {
+        "products": [{
                 "id": 31,
                 "name": "Green Tea",
                 "price": 1.75,
@@ -75,12 +71,11 @@
                 "description": "Like green and oolong teas, black tea comes from the Camellia sinensis plant. Its darker hue and stronger taste result from the greater level of oxidation it undergoes during processing. From delicate Darjeeling to strong Ceylon, each variety has distinct characteristics, making black tea a beloved beverage across the globe.",
                 "image": "blacktea.png"
             }
-        ]            
+        ]
     },
     {
         "name": "SNACKS",
-        "products": [
-            {
+        "products": [{
                 "id": 41,
                 "name": "Croissant",
                 "price": 2.80,
@@ -94,6 +89,6 @@
                 "description": "The muffins are incredibly rich, mega chocolate-y, and loaded with chocolate chips in every single bite",
                 "image": "muffin.png"
             }
-        ]            
+        ]
     }
 ]
